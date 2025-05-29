@@ -1,0 +1,10 @@
+# tracker_config/bytetrack.yaml
+
+tracker_type: bytetrack       # must be “bytetrack”
+track_high_thresh: 0.5        # confidence threshold to start a track
+track_low_thresh: 0.1         # confidence threshold to keep a track alive
+new_track_thresh: 0.6         # threshold to init a new track if no match
+track_buffer: 30              # frames to wait before deleting “lost” tracks
+match_thresh: 0.8             # IOU threshold for matching detections ↔ tracks
+
+fuse_score: true    
