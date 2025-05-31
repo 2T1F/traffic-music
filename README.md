@@ -9,6 +9,7 @@ saves into csv with their locations and frame by frame
 
 simply run first:,
 1. cd final
+run the venv
 2. pip install -r requirements.txt
 3. there might be some cuda download errors
     a. python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
